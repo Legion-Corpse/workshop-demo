@@ -1,4 +1,4 @@
-import App_Components from './ObjectProps'; // Swap this import to switch topics
+import App_Components from './UseStateDemo'; // Swap this import to switch topics
 
 // To switch topics during the workshop, change the import above to any of these:
 //   ./App_Components   — Functional vs Class component
@@ -8,8 +8,9 @@ import App_Components from './ObjectProps'; // Swap this import to switch topics
 //   ./DefaultProps     — Default prop values
 //   ./ChildrenProps    — props.children
 //   ./ObjectProps      — Object and array props
-//   ./UseStateDemo     — useState hook
 //   ./PropDrilling     — Passing props through multiple levels
+//   ./UseStateDemo     — useState hook (Counter + Toggle)
+//   ./UseEffectDemo    — useEffect hook (Counter with console side effect)
 
 function App() {
   return (
